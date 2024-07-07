@@ -5,9 +5,11 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between p-4 border-2 border-gray-900">
+      <Link to={'/artvituso'} >
       <div className="text-3xl font-serif font-bold">
         ART<span className="italic">VIRTUOSO</span>
       </div>
+      </Link>
       <div className="flex space-x-6">
         <Link to="/artvituso/about" className="text-lg font-serif hover:underline">ABOUT</Link>
         <Link to="/artvituso/events" className="text-lg font-serif hover:underline">EVENTS</Link>
