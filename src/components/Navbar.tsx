@@ -9,10 +9,10 @@ const Navbar = () => {
         ART<span className="italic">VIRTUOSO</span>
       </div>
       <div className="flex space-x-6">
-        <Link to="/about" className="text-lg font-serif hover:underline">ABOUT</Link>
-        <Link to="/events" className="text-lg font-serif hover:underline">EVENTS</Link>
-        <Link to="/explore" className="text-lg font-serif hover:underline">EXPLORE</Link>
-        <Link to="/sell" className="text-lg font-serif hover:underline">SELL</Link>
+        <Link to="/artvituso/about" className="text-lg font-serif hover:underline">ABOUT</Link>
+        <Link to="/artvituso/events" className="text-lg font-serif hover:underline">EVENTS</Link>
+        <Link to="/artvituso/explore" className="text-lg font-serif hover:underline">EXPLORE</Link>
+        <Link to="/artvituso/sell" className="text-lg font-serif hover:underline">SELL</Link>
       </div>
       <div className="flex items-center border border-gray-400 rounded">
         <input

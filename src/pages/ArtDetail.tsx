@@ -96,7 +96,7 @@ interface ArtDetail {
           <h3 className="text-xl font-bold mb-2">Price: {art.price}</h3>
           <h3 className="text-xl font-bold mb-2">About this artwork</h3>
           <p>{art.description}</p>
-          <Link className="mt-4 bg-gray-800 text-white py-2 px-4 rounded" to={`/explore/${id}/purchase`}>Purchase this artwork</Link>
+          <Link className="mt-4 bg-gray-800 text-white py-2 px-4 rounded" to={`/artvituso/explore/${id}/purchase`}>Purchase this artwork</Link>
         </div>
       </section>
     </div>

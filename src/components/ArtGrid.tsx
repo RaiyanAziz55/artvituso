@@ -15,7 +15,7 @@ const ArtGrid = () => {
     return (
         <div className="w-3/4 grid grid-cols-2 gap-4">
         {artItems.map(item => (
-            <Link to={`/explore/${item.id}`} key={item.id}>
+            <Link to={`/artvituso/explore/${item.id}`} key={item.id}>
               <Card 
                 image={item.image} 
                 title={item.title} 
