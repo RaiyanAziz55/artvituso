@@ -1,4 +1,4 @@
-import React from "react";
+
 import Card from "./Card";
 import placeholderImage from '../assets/images/1B4A2755.jpg';
 import { Link } from "react-router-dom";

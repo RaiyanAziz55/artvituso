@@ -1,6 +1,5 @@
 // src/pages/Explore.tsx
-import React from 'react';
-import placeholderImage from '../assets/images/1B4A2755.jpg'; // Your placeholder image
+
 import ArtGrid from '../components/ArtGrid';
 
 const Explore = () => {
